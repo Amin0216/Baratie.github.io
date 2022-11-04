@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Advent+Pro:wght@500 & family= Dancing+Script & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: 'Poor Story', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(228, 27, 90);
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+   list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* h1  {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: darkblue;
+    text-shadow:  5px 2.5px 3px rgb(84, 200, 177);
+    font-family: 'Playfair Display', serif;
+}  */
+
+
+/******************************* BARRE DE NAVIGATION *********************************/
+nav {
+    overflow: hidden;
+    background-color: #e441a3e2;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+
+header li {
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+ 
+}
+
+#logo {
+    float: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+
+}
+
+/******************************** IMAGE PRINCIPAL*********************************/
+#imagePrincipale {
+    padding-top: 60px;
+    background:  url(img/banniere.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 800px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgba(252, 153, 22, 0.792);
+    font-size: 3em;
+    margin-top: 110;
+    text-shadow: 1px 3px 2px rgb(219, 176, 67);
+}
+
+#premierTrait {
+    height: 1.5px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+}
+
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 4px 3px 1px rgba(231, 62, 186, 0.906);
+}
+
+/******************************** PRESENTATION *********************************/
+#presentations {
+    background-color: #ebecdfe8;
+    padding: 1px 0 100px 0;
+    
+}
+
+#texteIntro {
+    padding: 0px 20px;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'Advent Pro', cursive;
+    color: rgba(56, 55, 55, 0.952);
+}
+
+#texteIntro h2{
+    font-family: 'Lobster', cursive;
+    color: rgba(221, 79, 234, 0.865);
+}
+
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%; 
+}
+
+.imagesPrestations h4 {
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+}
+
+.imagesPrestations img {
+    border-radius: 50px;
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.79);
+}
+
+.imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.79);
+    transition: 0.6s ease-in-out;
+}
+
+/******************************** MENU *********************************/
+
+#menu {
+    height: 1640px;
+    background-color: #fff;
+    padding: 1px 2%;
+}
+
+#menu h2 {
+    padding-top: 60px;
+}
+
+#entree {
+    background: url(img/entree.jpg)no-repeat;
+}
+
+#plat {    
+    background: url(img/plat.jpg) no-repeat;
+}
+
+#dessert {    
+    background: url(img/dessert3.jpg) no-repeat;
+}
+
+#boisson{
+    background: url(img/boisson.jpg) no-repeat;
+}
+
+#menu li {
+    margin: 65px 100px 0 100px;
+    height: 300px ;
+    width: 60%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+
+#menu p {
+    height: 45px;
+    background-color: rgba(255, 217, 0, 0.85);
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgba(0, 0, 0, 0.75);
+    font-family: 'Lobster', cursive;
+    font-weight: 150;
+}
+
+#menu #plat, #menu #boisson{
+    float: right;
+}
+#plat p, #boisson p {
+    float: left;
+    background-color: rgba(255, 217, 0, 0.85);
+    margin-left: -180px;
+    box-shadow: 4px 4px 0 1px rgba(0, 0, 0, 0.75);  
+}
+
+/******************************************************************* FOOTER ****************************************************************/
+
+footer{
+    background-color: #524A3A;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+#contact{
+    font-family: 'Poor Story', cursive;
+    font-weight: 400;
+}
+
+form {
+    margin: 0 auto;
+    min-width: 900px;
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 10px;
+}
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 2em;
+    background-color: #FFFAE1;
+    width: 45%;
+    border-radius: 50px;
+    font-weight: 300;
+    
+}
+
+button:hover{
+    background-color: rgb(216, 147, 8);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+    font-weight: bold;
+}
+
+#icons {
+    width: 50%;
+    text-align: right;
+}
+
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+}
+
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
+
